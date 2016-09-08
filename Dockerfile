@@ -1,8 +1,3 @@
-FROM haproxy:1.6-alpine
-COPY haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
-
-
-
 FROM alpine:3.4
 
 ENV HAPROXY_MAJOR 1.6
